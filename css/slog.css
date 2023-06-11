@@ -1,0 +1,67 @@
+/* Pisava, velikost in barva naslovov */
+:root {
+   --bs-main: #112D4E;
+   --bs-title: #3F72AF;
+   --bs-background: #F9F7F7;
+   --bs-secondary-hover: #cccccc;
+   --bs-secondary: #DBE2EF;
+   --bs-font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Pisava, velikost in barva naslovov */
+body{  
+   font-family: var(--bs-font-family);
+   background-color: var(--bs-background);
+}
+
+h1 { color: var(--bs-main); font-size: 2em }
+h2 { color: var(--bs-title); font-size: 1.5em; font-weight: bold }
+h3 { color: var(--bs-title); font-size: 1.5em }
+p {font-size: 1.15em;}
+
+.predstavljeno .col-lg-4 {
+   text-align: center;
+}
+
+.navbar-custom .navbar-brand {
+   float: left;
+}
+.navbar-custom {
+   background-color: var(--bs-main);
+}
+.nav-item .nav-link {
+   opacity: .4;
+   color: var(--bs-secondary);
+}
+.active .nav-link {
+   opacity: 1;
+}
+
+.card {
+   border: 3px solid #333333;
+}
+.navbar-custom .nav-link:hover {
+   color: var(--bs-secondary-hover);
+}
+
+.carousel img {
+   margin: auto;
+}
+.item img {
+   width: 75%;
+}
+
+.rounded div {
+   border-radius: 5px;
+}
+
+.zvezdica {
+   color: red;
+}
+
+@media (max-width: 767px) {
+   .navbar-default .navbar-nav {
+      margin-top: 5px;
+      padding-left: 25px;
+   }
+}
